@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Password Change Form</title>
+</head>
+<body>
+	<h1>Fill the boxes below :</h1>
+
+
+	<form method='POST' action='passchange.php'>
+		<fieldset>
+			<legend>Password</legend>
+			<table border="0">
+		
+				<tr>
+					<td>Current Password:</td>
+					<td><input type="password" name="upass" /></td>
+				</tr>
+				<tr>
+					<td>New Password:</td>
+					<td><input type="password" name="npass" /></td>
+				</tr>
+				<tr>
+					<td>Confirm Password:</td>
+					<td><input type="password" name="cfpass" /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" name="submit" value="submit">
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
